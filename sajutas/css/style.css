@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+  overflow: hidden;
+ 
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Nunito;
+}
+
+h1 {
+   font-size: 150%;
+   text-align: center;
+}
+
+p {
+  font-size: 140%;
+  line-height: 150%;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  font-size: 155%;
+  text-shadow: 0 1px 1px rgb(115, 117, 3);
+}
+
+#slide4 {
+  background-image: linear-gradient(180deg, rgb(238, 237, 237), rgb(252, 227, 227));
+  padding: 5vh;
+}
+
+#slide5 {
+  background-image: linear-gradient(180deg, rgb(252, 227, 227), rgb(224, 223, 223));
+  padding: 5vh;
+}
+
+#slide6 {
+  background-image: linear-gradient(180deg, rgb(224, 223, 223), rgb(202, 202, 202));
+  padding: 5vh;
+}
+
+.talak {
+  background-color: rgb(231, 229, 229);
+  width: max-content;
+  /* margin: auto; */
+  margin-left: 65vw;
+  padding: 1px;
+  font-size: 3vh;
+  cursor: grab;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
